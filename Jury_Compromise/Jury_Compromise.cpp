@@ -43,7 +43,6 @@ int readInput(char *path)
 	int r = 0;
 	fstream file;
 	char buffer[4];
-	int count =0; //count to identify each round
 	file.open(path, ios::in);
 	if(file.fail()) {
 		cout << "file does't exist" << endl;
